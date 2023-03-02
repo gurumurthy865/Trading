@@ -5,14 +5,22 @@ It was the first benchmark to quantify market expectations of volatility. But th
 
 https://www.ig.com/en/indices/what-is-vix-how-do-you-trade-it
 
-Higher volatality means, more panic in the market which means market goes down.
-Note we have IV(implied volatality) for stock options. VIX is for index options only
+Note:
+ we have IV(implied volatality) for stock options. VIX is for index(indices) options only
+ VIX of 12-18 is good and good for option buyers.During corona vix was 60
+
+Scenario 1:
+		Higher volatality means, more panic in the market which means market goes down which is kind of true but in reality it does not shows the 			direction of market but the market sentiment.So post corona even though the volatality is high , market was actually recovering.
+Scenario 2: Lets say nifty fell by 300 points which means vix should have been increased but did not happen. why?
+ 		becase if you see broader market, its only heavy weight such as axis,hdfc,reliance which fell but mid cap and other stocks did not.
+
+
 
 VIX india:
 Lets say in NSE website currently vix is showing as 20.79%
 Annually --> 20.79% --> That means market can go 20% up or down annually
 How you will calculate montly or weekly or daily?
-Monthly --> root(12) ie. 3.46 --> 20.79/3.46 = 6.1%
+Monthly --> root(12) ie. 3.46 --> 20.79/3.46 = 6.1% .. Note when it is said one month, it is 30 trading sessions, not 30 days.
 Weekly  --> root(52 weeks) ie. 7.12 --> 20.79/7.12 = 2.87%
 Daily   --> root(365) ie.19.1 --> 20.79/19.1 = 1.1%
 
@@ -22,6 +30,49 @@ You can write both put and call options beyond this range and make profit or
 you can trade based on this range bound instinct
 
 
+
+How vix is calculated:
+India VIX is computed using the best bid and ask quotes of the out-of-the-money near and mid-month NIFTY option contracts which are traded on the F&O segment of NSE.
+The index depicts the expected market volatility over the next 30 calendar days.
+
+India VIX computation methodology
+India VIX uses the computation methodology of CBOE, with suitable amendments to
+adapt to the NIFTY options order book using cubic splines, etc
+The factors considered in the computation of India VIX are mentioned below:
+1) Time to expiry:
+The time to expiry is computed in minutes instead of days in order to arrive at a level
+of precision expected by professional traders.
+2) Interest Rate:
+The relevant tenure NSE MIBOR rate (i.e 30 days or 90 days) is being considered as
+risk-free interest rate for the respective expiry months of the NIFTY option contracts
+3) The forward index level:
+India VIX is computed using out-of-the-money option contracts. Out-of-the-money
+option contracts are identified using forward index level. The forward index level
+helps in determining the at-the-money (ATM) strike which in turn helps in selecting
+the option contracts which shall be used for computing India VIX. The forward index
+level is taken as the latest available price of NIFTY future contract for the respective
+expiry month.
+ “VIX” is a trademark of Chicago Board Options Exchange, Incorporated (“CBOE”) and Standard & Poor’s
+has granted a license to NSE, with permission from CBOE, to use such mark in the name of the India VIX
+and for purposes relating to the India VIX.
+4) Bid-Ask Quotes
+The strike price of NIFTY option contract available just below the forward index
+level is taken as the ATM strike. NIFTY option Call contracts with strike price above
+the ATM strike and NIFTY option Put contracts with strike price below the ATM
+strike are identified as out-of-the-money options and best bid and ask quotes of such
+option contracts are used for computation of India VIX. In respect of strikes for
+which appropriate quotes are not available, values are arrived through interpolation
+using a statistical method namely “Natural Cubic Spline”
+After identification of the quotes, the variance (volatility squared) is computed
+separately for near and mid month expiry. The variance is computed by providing
+weightages to each of the NIFTY option contracts identified for the computation, as
+per the CBOE method. The weightage of a single option contract is directly
+proportional to the average of best bid-ask quotes of the option contract and inversely
+proportional to the option contract’s strike price
+Computation of India VIX
+The variance for the near and mid month expiry computed separately are interpolated to
+get a single variance value with a constant maturity of 30 days to expiration. The square
+root of the computed variance value is multiplied by 100 to arrive at the India VIX value. 
 
 
 
