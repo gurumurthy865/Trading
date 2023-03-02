@@ -1,0 +1,33 @@
+Vix: Volatality index
+VIX, is one of the most common barometers of market sentiment
+For traders, the VIX not only represents a useful tool for assessing risk, but also the opportunity to capitalise on volatility itself.
+It was the first benchmark to quantify market expectations of volatility. But the index is forward looking, which means that it only shows the implied volatility of the S&P 500 (SPX) for the next 30 days.
+
+https://www.ig.com/en/indices/what-is-vix-how-do-you-trade-it
+
+Higher volatality means, more panic in the market which means market goes down.
+Note we have IV(implied volatality) for stock options. VIX is for index options only
+
+VIX india:
+Lets say in NSE website currently vix is showing as 20.79%
+Annually --> 20.79% --> That means market can go 20% up or down annually
+How you will calculate montly or weekly or daily?
+Monthly --> root(12) ie. 3.46 --> 20.79/3.46 = 6.1%
+Weekly  --> root(52 weeks) ie. 7.12 --> 20.79/7.12 = 2.87%
+Daily   --> root(365) ie.19.1 --> 20.79/19.1 = 1.1%
+
+what does this 1.1% mean?
+This mean today if nifty opens at 15000, range between which it would trade is 14860 to 15636... calculation is 15000/(1.1*100) = 136
+You can write both put and call options beyond this range and make profit or
+you can trade based on this range bound instinct
+
+
+
+
+
+
+
+
+
+
+

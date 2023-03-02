@@ -1,0 +1,42 @@
+Not TODO:
+1.No hero zero trades
+2.On expiry day, post 1:30PM should not hold any positions of expiry day
+3.Never ever average index options.
+4.Never ever buy more than 1 quantity of stock options.
+
+
+TODO:
+1.Find the capital you are trading with and the profit you are looking for.
+  once your profit target is reached, no matter how favour the market is do not trade. Either get out or use some part of the profit only to trade further.
+  once that part of the profit is lost, STFU and get out.
+2.Calculate vix and nifty/banknifty range
+3.Open shivu's template for options monitoring
+
+
+
+Stock options trading SOP:
+1.Check the stock price 
+2.Add both CE and PE positions in to watch list.
+3.Check for the news related to the company
+4.Check for the perfomance of stock in last one month
+5.Consider weather market is bullish or bearish
+6.Check the volume and then decide the quantities that can be bought 
+7.If buying the stock option,make sure you have enough money for other trades and you capable of carrying this position for atlest a week
+8.While buying check the depth up to 20, then decide at what price to buy atleat 0.1 less than the top buy value. Never buy at the price shown
+9.Never buy more than 1 lot at first, but be open to average at loss or profit
+
+
+Lessons:
+1.I'm making profits 70% of the day yet losing money becase the amount lost in 30% days is way higher than profits made.
+  why it is happening?
+  am booking little when trend is going in favour but not doing the same with stop loss when its going aganist me.
+  same thing is happening both with options hold for long time and even in scalping
+2.A.One day i was holding a nifty position PE and was running at loss of -10K. Smart tutor suggested they are taking CE. So i exited PE at -10K and entered
+  CE at this time. BUT it was in BN and not in nifty they were Bullish. This marked another -30K. so over all loss was -40K.
+  Moral:When there is maximum loss, always get out before it doubles. i should not have let that go to -30k instead overall -20k i should have accepted 
+        defeat and exit for the day.
+  B.Similary another scenario where PE i was holding but it was told market was Bullish. Yet i continue to hold and ended up losing -50K.
+  Moral: When market is aganist your views, its ok if you do not change the position but atleast exit the god damn position you are holding and stay mum.  
+  Options A and Option B might be a little contradictory but you should know what is right and what has to be done based on risk appetitie and management.
+3.No hero zero trades --> its only luck and i suck at it
+
